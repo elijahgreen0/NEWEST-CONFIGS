@@ -1,0 +1,20 @@
+* {
+    font-family: "Hack";
+}
+
+
+
+/*** Remove items from image context menu ***/
+
+/* Email Image... */
+#context-sendimage, 
+
+/* Set Image as Desktop Background... (and preceding separator) */
+#context-sep-setbackground, #context-setDesktopBackground,
+
+/* Inspect Accessibility Properties */
+#context-inspect-a11y
+{
+  display: none !important;
+}
+
